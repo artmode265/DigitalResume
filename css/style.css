@@ -1,18 +1,13 @@
 body {
   background-color: #0B0E16;
   color: #DBD6D6;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .container {
   margin-top: 100px;
   margin-left: 200px;
   margin-right: 200px;
-}
-
-img {
-  width: 300px;
-  height: 450px;
-  border-radius: 40px;
 }
 
 .partone {
@@ -22,10 +17,49 @@ img {
   gap: 3.5rem;
 }
 
+.partone img {
+  width: 280px;
+  height: 410px;
+  border-radius: 40px;
+}
+
 .partone h1 {
+  color: white;
   font-weight: 900;
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
-  font-size: 5rem;
+  font-size: 5.3rem;
+}
+
+.partone p {
+  font-weight: 350;
+}
+
+.partone ul {
+  list-style: none;
+  padding: 0;
+  font-weight: 400;
+}
+
+.partone ul li {
+  padding-bottom: 6px;
+}
+
+.partone .btnarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+
+.partone .btnarea a {
+  padding: 10px;
+  border: solid #DBD6D6 1px;
+  border-radius: 10px;
+  color: #DBD6D6;
+  text-decoration: none;
+}
+
+.partone .btnarea a:hover {
+  background-color: #002E74;
 }
 /*# sourceMappingURL=style.css.map */
