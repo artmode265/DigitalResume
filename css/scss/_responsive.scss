@@ -1,0 +1,34 @@
+@media (max-width: 768px ) {
+    body{
+        margin: auto;
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
+
+    }
+   
+    .partone {
+        flex-direction: column ; 
+        margin: auto;
+
+        .textholder h1{
+            font-size: 3rem;
+            padding-left: 2rem;
+            align-items: center;
+        }
+        
+        ul li, p{
+            padding-top: 2px;
+            text-align: center;
+            font-size: 13px;
+            margin: auto;
+            align-items: center;
+        }
+        .btnarea{
+            flex-direction: column;
+            gap : 0.5rem;
+        }
+    }
+}

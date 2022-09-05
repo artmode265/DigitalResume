@@ -1,0 +1,62 @@
+body{
+    background-color: red;
+    color: $text-color;
+    font-family: $font;
+}
+
+.container{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+
+.partone{
+    display: flex;
+    align-items:center ;
+    gap: 3.5rem;
+
+    img{
+        width: 280px;
+        height: 410px;
+        border-radius: 40px;
+    }
+
+    h1{
+        color: lighten($color: $text-color, $amount: 20);
+        font-weight: 900;
+        margin: 0;
+        font-size: 5.3rem;
+    }
+    p{
+        font-weight: 350;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        font-weight: 400;
+
+        li{
+            padding-bottom: 6px;
+        }
+    }
+    .btnarea{
+        display: flex;
+        gap : 2rem;
+
+        a{
+            padding: 10px;
+            border: solid $text-color 1px;
+            border-radius: 10px;
+            color: $text-color;
+            text-decoration: none;
+
+            &:hover{
+                background-color: $blue-color;
+            }
+        }
+    }
+
+}
