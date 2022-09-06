@@ -40,6 +40,15 @@
             margin: auto;
             align-items: flex-start;
 
+              
+            .left{
+                li .inner{
+                    font-size: 11px;
+                    color: $inner;
+                    padding-left: 2rem;
+                }
+
+            }
 
             .right{
                 h2,ul{
@@ -49,6 +58,7 @@
                     padding-left: 2rem;
                 }
             }
+
          
     }
 }

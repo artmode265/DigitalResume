@@ -15,7 +15,7 @@ ul {
 }
 
 li, p {
-  color: #c3bbbb;
+  color: #c6bebe;
   padding-bottom: 0.8rem;
 }
 
@@ -163,6 +163,11 @@ footer {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+  }
+  .partthree .left li .inner {
+    font-size: 11px;
+    color: #3679CB;
+    padding-left: 2rem;
   }
   .partthree .right h2, .partthree .right ul {
     direction: ltr;
