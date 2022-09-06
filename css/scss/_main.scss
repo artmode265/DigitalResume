@@ -1,19 +1,26 @@
 body{
-    background-color: red;
+    background-color: $bg-color;
     color: $text-color;
     font-family: $font;
 }
 
 .container{
     margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 
 }
 
+ul{
+    list-style: none;
+    // padding-left: 1rem;
+}
+li,p{
+    color: darken($text-color,10);
+    padding-bottom: 0.8rem;
+}
 
-
-.partone{
+.partone {
     display: flex;
     align-items:center ;
     gap: 3.5rem;
@@ -34,7 +41,6 @@ body{
         font-weight: 350;
     }
     ul{
-        list-style: none;
         padding: 0;
         font-weight: 400;
 
@@ -59,4 +65,35 @@ body{
         }
     }
 
+}
+.partthree{
+    display: flex;
+    justify-content: space-between;
+    
+    .left{
+        li .inner{
+            font-size: 12px;
+            color: $inner;
+            padding-left: 4rem;
+        }
+
+    }
+    
+    .right {
+         h2, ul{
+            direction: rtl;
+        }
+        ul{
+            padding: 0;
+        }
+}
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    opacity: 25%;
+    padding-bottom: 0.8rem;
 }

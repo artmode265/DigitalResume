@@ -8,27 +8,47 @@
         height: 100px;
 
     }
+    li{
+        font-size: 15px;
+        color: darken($text-color,10);
+    }
    
-    .partone {
+    .partone{
         flex-direction: column ; 
+        gap: 0.5rem;
+        align-items: center;
         margin: auto;
 
-        .textholder h1{
+        .textholder h1 {
             font-size: 3rem;
             padding-left: 2rem;
             align-items: center;
         }
         
-        ul li, p{
-            padding-top: 2px;
+        ul li, p, h1{
             text-align: center;
             font-size: 13px;
-            margin: auto;
-            align-items: center;
         }
         .btnarea{
             flex-direction: column;
             gap : 0.5rem;
         }
+    }
+    .partthree{
+            flex-direction: column ; 
+            gap: 0.5rem;
+            margin: auto;
+            align-items: flex-start;
+
+
+            .right{
+                h2,ul{
+                    direction: ltr;
+                }
+                ul{
+                    padding-left: 2rem;
+                }
+            }
+         
     }
 }
