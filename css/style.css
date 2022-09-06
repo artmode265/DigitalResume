@@ -19,6 +19,10 @@ li, p {
   padding-bottom: 0.8rem;
 }
 
+p, .school {
+  font-weight: 350;
+}
+
 .partone {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,10 +44,6 @@ li, p {
   font-weight: 900;
   margin: 0;
   font-size: 5.3rem;
-}
-
-.partone p {
-  font-weight: 350;
 }
 
 .partone ul {
