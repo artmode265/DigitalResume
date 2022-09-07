@@ -6,5 +6,6 @@
     }
     @if $themecolor == colorful{
         background-color: $colorful;
+        color: $text-color;
     }
 }
