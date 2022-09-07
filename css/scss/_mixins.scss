@@ -1,0 +1,10 @@
+@mixin theme($themecolor) {
+    @if $themecolor == normal {
+        background-color: $bg-color;
+        color: $text-color;
+        font-family: $font;
+    }
+    @if $themecolor == colorful{
+        background-color: $colorful;
+    }
+}

@@ -1,9 +1,9 @@
-body{
-    background-color: $bg-color;
-    color: $text-color;
-    font-family: $font;
-}
+//designed and coded by Edwin popularly known as Nygma265 from artmode265
 
+body{
+    @include theme(normal);
+    
+}
 .container{
     margin-top: 5%;
     margin-left: 15%;
@@ -53,7 +53,7 @@ p,.school{
         display: flex;
         gap : 2rem;
 
-        a{
+        .btn{
             padding: 10px;
             border: solid $text-color 1px;
             border-radius: 10px;
@@ -64,6 +64,13 @@ p,.school{
                 background-color: $blue-color;
             }
         }
+        .btn-git:hover{
+            background-color: orangered;
+        }
+        .btn-insta:hover{
+            background: linear-gradient(to right,$colorful,rgb(214, 114, 0));
+        }
+       
     }
 
 }

@@ -62,7 +62,7 @@ p, .school {
   gap: 2rem;
 }
 
-.partone .btnarea a {
+.partone .btnarea .btn {
   padding: 10px;
   border: solid #DBD6D6 1px;
   border-radius: 10px;
@@ -70,8 +70,17 @@ p, .school {
   text-decoration: none;
 }
 
-.partone .btnarea a:hover {
+.partone .btnarea .btn:hover {
   background-color: #002E74;
+}
+
+.partone .btnarea .btn-git:hover {
+  background-color: orangered;
+}
+
+.partone .btnarea .btn-insta:hover {
+  background: -webkit-gradient(linear, left top, right top, from(darkorchid), to(#d67200));
+  background: linear-gradient(to right, darkorchid, #d67200);
 }
 
 .partthree {
